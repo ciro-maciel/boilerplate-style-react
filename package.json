@@ -1,0 +1,35 @@
+{
+    "name": "@ciro-maciel/react-style-boilerplate",
+    "version": "1.0.0",
+    "description": "My version of React/Preact Style Guide Boilerplate",
+    "main": "dist/index.js",
+    "homepage": "",
+    "license": "CC-BY-SA-4.0",
+    "author": {
+        "name": "Ciro Cesar Maciel",
+        "email": "ciro.maciel@c37.co"
+    },
+    "scripts": {
+        "developer": "start-storybook -p 9001 -c docs/storybook/.storybook",
+        "docs": "build-storybook -c docs/storybook/.storybook -o docs",
+        "build": "rimraf dist && babel src -d dist",
+        "install": "yarn"
+    },
+    "dependencies": {
+        "react": "^15.6.2",
+        "react-dom": "^15.6.2",
+        "styled-components": "^2.2.1"
+    },
+    "devDependencies": {
+        "@storybook/addon-options": "^3.2.12",
+        "@storybook/react": "^3.2.12",
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.25.0",
+        "babel-loader": "^7.1.2",
+        "babel-preset-env": "^1.6.0",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-stage-2": "^6.24.1",
+        "raw-loader": "^0.5.1",
+        "rimraf": "^2.6.2"
+    }
+}
