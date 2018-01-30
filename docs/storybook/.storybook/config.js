@@ -54,7 +54,7 @@ addDecorator(story => (
 
 setOptions({
     name: 'Style Boilerplate',
-    url: 'https://ciro-maciel.github.io/react-style-boilerplate/',
+    url: 'https://github.com/ciro-maciel/boilerplate-style-react/',
     goFullScreen: false,
     showLeftPanel: true,
     showDownPanel: true,

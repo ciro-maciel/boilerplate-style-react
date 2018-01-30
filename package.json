@@ -10,9 +10,9 @@
         "email": "ciro.maciel@c37.co"
     },
     "scripts": {
-        "developer": "start-storybook -p 9001 -c docs/storybook/.storybook",
-        "docs": "build-storybook -c docs/storybook/.storybook -o docs",
-        "build": "rimraf dist && babel src -d dist",
+        "start:dev": "start-storybook -p 9001 -c docs/storybook/.storybook",
+        "build:site": "build-storybook -c docs/storybook/.storybook -o docs",
+        "build:dist": "rimraf dist && babel src -d dist",
         "install": "yarn"
     },
     "dependencies": {
