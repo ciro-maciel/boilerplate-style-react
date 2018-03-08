@@ -1,4 +1,4 @@
-## react-style-boilerplate
+## react-style-template
 My version of React/Preact Style Guide Boilerplate
 
 
